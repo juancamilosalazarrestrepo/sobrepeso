@@ -1,6 +1,6 @@
 var alturaInput = document.getElementById("altura");
 var pesoInput = document.getElementById("peso");
-var boton = document.getElementById("botonenviar")
+var boton = document.getElementById("botonenviar");
 boton.addEventListener("click",calcularedad);
 
 
