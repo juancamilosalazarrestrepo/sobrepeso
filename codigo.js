@@ -9,6 +9,7 @@ function calcularedad()
 {
  var valorAltura = parseInt(alturaInput.value);
  var valorPeso = parseInt(pesoInput.value);
- console.log(texto);
  document.write("tu medida es de <strong>" + (valorAltura*valorPeso) + "</strong> kilos");
+ console.log(alturaInput);
+
 }
