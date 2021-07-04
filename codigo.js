@@ -10,7 +10,8 @@ function calcularedad()
  var valorAltura = alturaInput.value;
  var valorPeso = parseInt(pesoInput.value);
 
-var indiceMasaCorporal = (valorPeso/(valorAltura*valorAltura))
+var indiceMasaCorporal = (valorPeso/(valorAltura*valorAltura));
+indiceMasaCorporal= indiceMasaCorporal.toFixed(2);
 
 if (indiceMasaCorporal < 18.5)
 {
