@@ -7,9 +7,9 @@ boton.addEventListener("click",calcularedad);
 
 function calcularedad()
 {
- var valorAltura = parseInt(alturaInput.value);
+ var valorAltura = parse(alturaInput.value);
  var valorPeso = parseInt(pesoInput.value);
- document.write("tu medida es de <strong>" + (valorAltura*valorPeso) + "</strong> kilos");
+ document.write("tu medida es de <strong>" + (valorPeso/(valorAltura*valorAltura)) + "</strong> kilos");
  console.log(alturaInput);
 
 }
